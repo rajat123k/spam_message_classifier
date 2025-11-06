@@ -20,7 +20,7 @@ def to_array(x):
     return x.toarray()
 
 sys.modules['__main__'].to_array = to_array
-sys.modeles['__main__'].word_count = word_count
+sys.modules['__main__'].word_count = word_count
 
 def preprocess(text):
     # import necessary libraries and resources inside the function
